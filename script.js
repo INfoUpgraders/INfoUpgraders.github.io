@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded',function(event){
-    var dataText = [ "programmer.", "graphic designer.", "i am", "infoupgraders."];
+    var dataText = [ "programmer.", "graphic designer.", "i am  infoupgraders."];
 
     function typeWriter(text, i, fnCallback) {
       if (i < (text.length)) {
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded',function(event){
         }, 100);
       }
       else if (typeof fnCallback == 'function') {
-        setTimeout(fnCallback, 1350);
+        setTimeout(fnCallback, 1100);
       }
     }
      function StartTextAnimation(i) {
