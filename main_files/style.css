@@ -1,0 +1,164 @@
+h1 {
+    font-family: Consolas;
+    font-size: 16px;
+    color: #16C60C;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    padding-top: 25%;
+}
+
+body {
+    background-color: #0C0C0C;
+}
+
+#continue {
+    padding-top: 5px;
+}
+
+#back {
+    padding-top: 5px;
+}
+
+/*** Works on common browsers ***/
+
+::selection {
+    background-color: #ffffff;
+    color: #E939F3;
+}
+
+/*** Mozilla based browsers ***/
+
+::-moz-selection {
+    background-color: #ffffff;
+    color: #E939F3;
+}
+
+/***For Other Browsers ***/
+
+::-o-selection {
+    background-color: #F3F3F3;
+    color: #E939F3;
+}
+
+::-ms-selection {
+    background-color: #F3F3F3;
+    color: #E939F3;
+}
+
+/*** For Webkit ***/
+
+::-webkit-selection {
+    background-color: #F3F3F3;
+    color: #E939F3;
+}
+
+
+/*Cookie Consent Begin*/
+#cookieConsent {
+    background-color: rgba(12,12,12,0.9);
+    min-height: 50px;
+    font-size: 16px;
+    color: #16C60C;
+    line-height: 26px;
+    padding: 0 0 0 100px;
+    font-family: Consolas;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+    -webkit-box-shadow: 0px 30px 50px #16C60C;
+    box-shadow: 0px 30px 50px #16C60C;
+}
+
+#cookieConsent a {
+    font-family: Consolas;
+    color: #16C60C;
+}
+#closeCookieConsent {
+    float: right;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 12px 12px 0 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: #16C60C;
+    color: #0c0c0c;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: -54px 70px 0 10px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #E0C91F;
+}
+/*Cookie Consent End*/
+
+
+#continue:hover {
+    font-size: 0;
+}
+
+#continue:hover:after {
+    content: '【 continue 】';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#back:hover {
+    font-size: 0;
+}
+
+#back:hover:after {
+    content: '【 back 】';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#continue a, #back a {
+    text-decoration: none;
+    color: #16C60C;
+}
+
+.line-1 {
+    font-family: Consolas;
+    font-size: 16px;
+    color: #16C60C;
+    font-weight: 100;
+    border-right: 8px solid #F3F3F3;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    margin-top: 45px;
+}
+
+.anim-typewriter {
+    animation: typewriter 4s steps(56) 1s 1 normal both, blinkTextCursor 1000ms steps(56) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50.25em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 1);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
