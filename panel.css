@@ -1,5 +1,5 @@
 body {
-	background: #00bfff url('circle.png') repeat 0 0;  /* #0099cc & #00bfff */
+	background: #00bfff url('/circle.png') repeat 0 0;  /* #0099cc & #00bfff */
 	-webkit-animation: 20s linear 0s normal none infinite animate;
     -moz-animation: 20s linear 0s normal none infinite animate;
     -ms-animation: 20s linear 0s normal none infinite animate;
