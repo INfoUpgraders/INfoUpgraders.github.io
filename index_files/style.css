@@ -1,11 +1,15 @@
 body {
-	background-color: #2b2d2f;
+	background: rgba(0, 0, 0, 0.9) url(background.png) repeat 0 0;
+	background-blend-mode: darken;
 	padding: 10px;
 	margin: 0px;
-	-webkit-transition: ease-out 0.3s;
-	-moz-transition: ease-out 0.3s;
-	-o-transition: east-out 0.3s;
-	transition: ease-out 0.3s;
+	animation: fadeInAnimation ease 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+		0% {opacity: 0;} 100% {opacity: 1;}
 }
 
 .nav {
@@ -18,18 +22,17 @@ body {
 	outline: none;
 }
 
-a.left
-{
-		font-family: 'Raleway', sans-serif;
-    position: relative;
-		color: white;
-		font-family: 'Raleway', sans-serif;
-		text-decoration: none;
-		text-transform: lowercase;
-		outline: none;
-		text-align: center;
-		text-decoration: none;
-		display: inline-block;
+a.left {
+	font-family: 'Raleway', sans-serif;
+  position: relative;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	text-transform: lowercase;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
 
 a.left:hover {
@@ -82,8 +85,7 @@ p {
 	font-size: 20px;
 }
 
-#padding-extra {
-	text-align: center !important;
-	padding-bottom: 5px;
-	font-weight: bolder;
+#extra {
+	text-align: center;
+	font-weight: 700;
 }
