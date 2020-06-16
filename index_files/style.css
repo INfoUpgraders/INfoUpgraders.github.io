@@ -46,8 +46,9 @@ h1 {
 #main {
 	margin: auto;
   padding: 10px;
-	padding-top: 20%;
+	padding-top: 15%;
 	text-align: center;
+	width: 50%;
 }
 
 p {
@@ -56,4 +57,10 @@ p {
 
 #bigger-size {
 	font-size: 20px;
+}
+
+#padding-extra {
+	margin-left: 60px;
+	text-align: left !important;
+	padding-bottom: 10px;
 }
