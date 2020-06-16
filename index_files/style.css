@@ -32,6 +32,10 @@ a.left
 		display: inline-block;
 }
 
+a.left:hover {
+	color: #6da860
+}
+
 a.left:before {
   content: "";
   position: absolute;
@@ -39,13 +43,14 @@ a.left:before {
   height: 3.5px;
   bottom: 0;
   left: 0;
-  background-color: #6da860;
+  background-color: white;
+	color: #6da860;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
 a.left:hover:before {
-	color: rgba(255, 255, 255, 0.95);
+	color: #6da860;
   visibility: visible;
   width: 100%;
 }
