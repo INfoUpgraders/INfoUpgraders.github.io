@@ -16,7 +16,7 @@ div.main {
 
 .section {
   background-color: #2d2b2f;
-  width: 45%;
+  max-width: 45%;
   height: 100%;
   padding: 10px 8px;
   border-radius: 25px;
@@ -39,10 +39,24 @@ p.desc {
 }
 
 .section {
-  transition: 0.15s ease-out;
+  transition: 0.1s ease-out;
 }
 
 .section:hover {
-  transition: 0.15s ease-out;
-  transform: translate(0, -10px);
+  transition: 0.1s ease-out;
+  transform: scale(1.05);
+}
+
+p.tags {
+  border: 0px solid white;
+  border-radius: 25px;
+  padding: 5px 0px;
+  min-width: 25%;
+  background-color: #181818;
+  color: white;
+  inline: block;
+  text-align: center;
+  margin-right: 6px;
+  float: left;
+  font-size: auto;
 }
