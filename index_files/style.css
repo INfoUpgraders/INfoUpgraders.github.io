@@ -49,7 +49,7 @@ a.left:before {
   background-color: white;
 	color: #6da860;
   visibility: hidden;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 a.left:hover:before {
@@ -64,7 +64,7 @@ span {
 
 h1 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
+	font-weight: 700;
 	color: white;
 	font-align: center;
 }
@@ -74,7 +74,7 @@ h1 {
   padding: 10px;
 	padding-top: 15%;
 	text-align: center;
-	width: 50%;
+	width: 55%;
 }
 
 p {
@@ -83,9 +83,61 @@ p {
 
 #bigger-size {
 	font-size: 20px;
+	text-align: left;
 }
 
 #extra {
 	text-align: center;
-	font-weight: 700;
+	font-size: 45px;
+}
+
+#div_links {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+	padding: 6px 15px;
+	border: 2.5px solid #6da860;
+	color: white;
+	transition: 0.12s ease-in;
+}
+
+#div_links:hover {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+	padding: 6px 15px;
+	transition: 0.12s ease-in;
+	transform: translate(2.5px, -5px);
+}
+
+a#div_links {
+	margin-left: 50px;
+}
+
+.div_links {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	text-transform: lowercase;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.div_links:hover {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	text-transform: lowercase;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
