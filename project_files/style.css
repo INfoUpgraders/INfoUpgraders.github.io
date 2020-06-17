@@ -1,0 +1,48 @@
+div.main {
+  margin: auto;
+  padding: 10px;
+	padding-top: 12.5%;
+	text-align: center;
+	width: 57%;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  text-align: left !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section {
+  background-color: #2d2b2f;
+  width: 45%;
+  height: 100%;
+  padding: 10px 8px;
+  border-radius: 25px;
+  inline: block;
+  float: left;
+  margin: 10px;
+}
+
+a.no_show {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+p.desc {
+  color: rgba(255, 255, 255, 0.80);
+  text-align: left !important;
+  font-size: 15.7px;
+  font-weight: lighter;
+}
+
+.section {
+  transition: 0.15s ease-out;
+}
+
+.section:hover {
+  transition: 0.15s ease-out;
+  transform: translate(0, -10px);
+}
