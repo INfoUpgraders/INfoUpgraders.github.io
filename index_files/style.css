@@ -79,7 +79,7 @@ h1 {
 #main {
 	margin: auto;
   padding: 10px;
-	padding-top: 15%;
+	padding-top: 12.5%;
 	text-align: center;
 	width: 55%;
 }
@@ -102,7 +102,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
-	margin-top: 20px;
+	margin-top: 30px;
 	padding: 6px 15px;
 	border: 2.5px solid #6da860;
 	color: white;
@@ -114,7 +114,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
-	margin-top: 20px;
+	margin-top: 30px;
 	padding: 6px 15px;
 	transition: 0.12s ease-out;
 	transform: translate(2.5px, -5px);
