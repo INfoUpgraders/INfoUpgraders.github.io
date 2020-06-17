@@ -1,7 +1,8 @@
 body {
-	background: rgba(0, 0, 0, 0.95) url(background.png) no-repeat 0 0;
+	background: rgba(0, 0, 0, 0.90) url(background.png) no-repeat 0 0;
 	background-size: cover;
 	background-blend-mode: darken;
+	background-attachment: fixed;
 	padding: 10px;
 	margin: 0px;
 	animation: fadeInAnimation ease 1s;
@@ -107,7 +108,7 @@ p {
 	border: 2.5px solid #6da860;
 	color: white;
 	transition: 0.12s ease-out;
-	border-radius: 1.2vw;
+	border-radius: 1.2vh;
 }
 
 #div_links:hover {
@@ -119,7 +120,7 @@ p {
 	transition: 0.12s ease-out;
 	transform: translate(2.5px, -5px);
 	border: 2.5px solid #6da860;
-	border-radius: 1vw;
+	border-radius: 1vh;
 	background-color: #6da860;
 	color: black;
 }
