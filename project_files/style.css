@@ -1,3 +1,7 @@
+* {
+  cursor: filter: drop-shadow(100px 100px 50px blue);
+}
+
 div.main {
   margin: auto;
   padding: 10px;
@@ -39,12 +43,15 @@ p.desc {
 }
 
 .section {
-  transition: 0.1s ease-out;
+  transition: 0.5s ease-out;
+  filter: brightness(100%);
+
 }
 
 .section:hover {
-  transition: 0.1s ease-out;
+  transition: 0.5s ease-out;
   transform: scale(1.05);
+  filter: drop-shadow(0px 0px 200px black);
 }
 
 p.tags {
@@ -60,3 +67,13 @@ p.tags {
   float: left;
   font-size: auto;
 }
+
+/*.view:hover {
+    font-size: 0;
+}
+.view:hover:after {
+    content: "View Project";
+    font-size: 16px;
+    cursor: pointer;
+}
+/*
