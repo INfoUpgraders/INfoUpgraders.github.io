@@ -11,13 +11,13 @@
 
 #flex-container > #item {
   background-color: #2c2a2e;
-  width: 330px;
-  height: 285px;
+  width: 300px;
+  height: auto;
   margin: 20px;
   text-align: center;
   font-size: 30px;
   border-radius: 25px;
-  flex-grow: 1;
+  flex-grow: -1;
   border: 2.5px solid white;
 }
 
@@ -26,15 +26,40 @@
   max-width: 99%;
 }
 
-#item > p {
-  font-size: 24px;
+#item > a p {
+  font-size: 22px;
   text-align: left;
-  padding-left: 8px;
+  padding: 0 5px 0 8px;
   font-weight: 500;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.linkk:hover {
+	color: #6da860 !important;
+	transition: 0.25s;
+	text-decoration: none;
 }
 
 .title {
   padding-top: 100px;
   text-align: center;
   font-size: 42px;
+}
+
+p.tag {
+	font-size: 18px !important;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 25px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	padding: 3px 7.5px 3px 7.5px !important;
+}
+
+.text {
+	font-size: 16px !important;
+	margin: 0 !important;
+	text-align: left !important;
+	padding: 0 5px 0 8px !important;
 }
